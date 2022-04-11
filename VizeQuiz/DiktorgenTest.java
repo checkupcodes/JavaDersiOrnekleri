@@ -5,7 +5,7 @@ public class DiktorgenTest {
         System.out.println("İki nesne oluşturalım");
         Random random = new Random();
 
-        Dikdortgen name1 = new Dikdortgen(2, 2);
+        Dikdortgen name1 = new Dikdortgen(2, 5);
         Dikdortgen name2 = new Dikdortgen(14, 14);
 
         System.out.println(name1);

@@ -14,6 +14,7 @@ public class ArrayExample {
             r[i] = 1 + m.nextInt(15);
         }
     }
+    
     public void func(int[] r){
         for(int i = 0; i<r.length ; i++){
             r[i] = r[i] *2 +1;

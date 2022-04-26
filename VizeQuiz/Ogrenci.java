@@ -6,9 +6,9 @@ public class Ogrenci {
         setOgrenci(ad, soyad, cinsiyet, kimlikNo, yas);
     }
 
-    public void setOgrenci(String ad, String soyad, String cinsiyet, String kimlikNo, int yas) {
-        this.ad = ad;
-        this.soyad = soyad;
+    public void setOgrenci(String ad1, String soyad1, String cinsiyet, String kimlikNo, int yas) {
+        this.ad = ad1;
+        this.soyad = soyad1;
         this.cinsiyet = cinsiyet;
         this.kimlikNo = kimlikNo;
         this.yas = yas;

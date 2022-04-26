@@ -5,9 +5,10 @@ public class DiktorgenTest {
         System.out.println("İki nesne oluşturalım");
         Random random = new Random();
 
-        Dikdortgen name1 = new Dikdortgen(2, 5);
+        Dikdortgen name1 = new Dikdortgen(3, 1);
         Dikdortgen name2 = new Dikdortgen(14, 14);
 
+        
         System.out.println(name1);
         System.out.println(name2);
         System.out.println("**************");
@@ -17,6 +18,7 @@ public class DiktorgenTest {
 
         name1.setUzunluk(name1.getUzunluk()*14);
         name1.setGenislik(name1.getGenislik()*14);
+
         System.out.println(name1);
         System.out.println(name2);
         System.out.println("**************");

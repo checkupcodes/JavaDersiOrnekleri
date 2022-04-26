@@ -2,7 +2,7 @@ public class Dikdortgen {
     private int uzunluk;
     private int genislik;
 
-    Dikdortgen(int uzun,int gen){
+    public Dikdortgen(int uzun,int gen){
         setUzunluk(uzun);
         setGenislik(gen);
     }
@@ -36,9 +36,9 @@ public class Dikdortgen {
         return cevreler;
     }
 
-    public boolean esitMi(Dikdortgen dik){
+    public boolean esitMi(Dikdortgen yakup){
         boolean esit = false;
-        if(this.alan() == dik.alan() && this.cevre() == dik.cevre()){
+        if(this.alan() == yakup.alan() && this.cevre() == yakup.cevre()){
             System.out.println("Dikdörtgenler eşit");
             return !esit;
         }else {
